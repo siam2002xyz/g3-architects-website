@@ -5,22 +5,21 @@
 /* start */
 /* common text */
 * {
-  
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
 .pry-btn {
-    border-radius: 8px;
-    color: #FFF;
-    font-size: 1.25rem;
-    background: #FF900E;
-    padding: 20px 25px;
-    color: #FFF;
-    cursor: pointer;
-    border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.25rem;
+  background: #ff900e;
+  padding: 20px 25px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
 }
-/* header */
 
+/* header */
 
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -52,7 +51,7 @@ nav li {
 
 /* banner */
 
-.benner-text{
+.benner-text {
   justify-content: center;
 }
 
@@ -73,20 +72,43 @@ nav li {
   text-align: center;
   margin: 0 auto;
 }
-.banner img{
+.banner img {
   width: 100%;
   margin-top: 10px;
+}
+/* banner */
+/* header */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.teams-container{
+  display: flex;
+}
+.teams-img{
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 3px;
+  width: 342px;
+  height: 342px;
 }
 
 
 
+
+
+
+
+
+
 /* for mobile */
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   header {
     background: rgba(255, 144, 14, 0.1);
     padding: 20px;
   }
-  nav{
+  nav {
     flex-direction: column;
   }
   .banner-title {
@@ -95,12 +117,12 @@ nav li {
   }
 }
 /* tablate */
-@media screen and (min-width:577px) and (max-width:960px){
+@media screen and (min-width: 577px) and (max-width: 960px) {
   header {
     background: rgba(255, 144, 14, 0.1);
     padding: 40px;
   }
-  nav{
+  nav {
     flex-direction: column;
   }
   .banner-title {
